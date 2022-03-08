@@ -24,15 +24,13 @@ class Layout extends Component {
             <li><Link to="/portfolio">Portfolio</Link></li>
           </ul>
           <ul>
-            <li><Link to="/blog">Blog</Link></li>
-          </ul>
-          <ul>
             <li><a target="_blank" href="mailto:jedgardev@gmail.com">Contact</a></li>
           </ul>
         </div>
       )
     }
   }
+
   render() {
     // const { children } = this.props
     return (
